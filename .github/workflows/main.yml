@@ -15,7 +15,7 @@ jobs:
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
           project_name: E-EMB.24.12
-          cx_tenant: ${{ secrets.CM_N8_TENANT }}
-          base_uri: https://us.ast.checkmarx.net
+          cx_tenant: beta_nova8
+          base_uri: https://us.ast.checkmarx.net/
           cx_client_id: ${{ secrets.CM_N8_01 }}
           cx_client_secret: ${{ secrets.CM_N8_SEC }}
